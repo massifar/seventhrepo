@@ -1,0 +1,91 @@
+body {
+  background-color: #FFFFFF;
+  background-image: url(../img/orange2.jpg);
+  font-family: 'Roboto Slav', sans-serif;
+}
+
+nav {
+  background-color: #FE7E00;
+  font-family: 'Roboto Slav', sans-serif;
+  height: 60px;
+  padding: 20px 0 20px 0;
+  color: #fff;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+nav > a {
+  font-family: 'Roboto Slav', sans-serif;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  left: 25px;
+  position: absolute;
+  text-align: left;
+  text-decoration: none;
+  top: 20px;
+}
+
+nav ul {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+nav li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  position: absolute;
+  text-align: left;
+  text-decoration: none;
+  top: 140px;
+  float: left;
+}
+
+header input {
+  background-color: #FFFF00;
+}
+
+.main-feature {
+  float: left;
+  margin: 0 0 90px 90px;
+  padding: 220px 0 90px 90px;
+}
+.side-feature {
+  font-size: 55px;
+  float: right;
+  margin: 90px 0 0 0;
+  padding: 90px 90px 0 90px;
+  height: 144px;
+  width: 60%;
+  text-align: left;
+}
+
+.side-feature p {
+  color: #7ACCC8;
+}
+
+.side-feature > button {
+  display: inline-block;
+  padding: 20px;
+  color: #FF0000;
+  font-size: 25px;
+  background-color: #7ACCC8;
+  float: left;
+}
+
+.side-feature >  p span {
+  color: #ff0000;
+  font-size: 60px;
+}

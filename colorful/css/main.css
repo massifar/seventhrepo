@@ -1,0 +1,126 @@
+body {
+  /*display: inline-block;*/
+}
+
+nav {
+  background-color: #A4D0D9;;
+  font-family: 'Teko', sans-serif;
+  height: 60px;
+  color: #000000;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  position: relative;
+}
+
+nav ul {
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 15px
+}
+
+nav > a {
+  color: #fff;
+  display: inline-block;
+  height: 25px;
+  margin: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  color: #000000;
+}
+
+header p {
+  padding-top: 0;
+  text-align: center;
+}
+
+header img {
+  padding: 0 20px 20px;
+  text-align: center;
+  width: 481px;
+  height: 120px;
+  left: 5px;
+  right: 5px;
+  bottom: 229px;
+  top: 120px;
+
+}
+
+.flat-design {
+  background-color: #ECECEC;
+  height: 96px;
+  width: 497px;
+  top: 266px;
+  bottom: 362px;
+}
+
+.flat-design div {
+  font-size: 2px;
+  margin: 30% 10% 15%;
+}
+
+.flat-design- h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  height: 65px;
+  margin: 40px 0  0 0;
+  padding: 98px 0 0 0;
+  color: #ff0000;
+}
+
+.flat-design p {
+  font-size: 12px;
+  line-height: 30px;
+  margin: 20px;
+  padding: 0 0 0 30px;
+  width: 90%;
+  text-align: left;
+}
+
+.great-idea {
+  background-color: #ECECEC;
+  width: 50%;
+}
+
+.great-idea div {
+  font-size: 14px;
+}
+
+.graet-idea h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  height: 15px;
+  margin: 0 0 0px 20px;
+  padding: 0 0 40px 20px;
+  color: #ff0000;
+  text-align: center;
+
+}
+
+.great-idea p {
+  font-size: 12px;
+  line-height: 30px;
+  margin: 0 0 140px 180px;
+  padding: 0 100px 80px 60px;
+  width: 90%;
+  text-align: left;
+}
+
+.browser-compatibility {
+  float: right;
+  width: 50%;
+}
